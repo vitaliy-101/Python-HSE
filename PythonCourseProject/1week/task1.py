@@ -9,6 +9,7 @@ class Solution(object):
             a = c
         return a
 
+
     def simplifiedFractions(self, n):
         itog = []
         for i in range(1, n):

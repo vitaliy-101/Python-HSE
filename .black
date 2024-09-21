@@ -1,0 +1,6 @@
+[tool.black]
+lin-length = 150
+exclude = '''
+    venv/
+    tests/
+'''
