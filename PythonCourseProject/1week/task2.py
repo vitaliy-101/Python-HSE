@@ -1,6 +1,7 @@
 #https://leetcode.com/problems/multiply-strings/?envType=problem-list-v2&envId=string&difficulty=MEDIUM%2CHARD
 class Solution(object):
     def multiply_numbers(self, num1, num2):
+        a = ""
         len1, len2 = len(num1), len(num2)
         result = [0] * (len1 + len2)
         for i in range(len1 - 1, -1, -1):
