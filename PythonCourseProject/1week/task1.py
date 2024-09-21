@@ -1,4 +1,4 @@
-#https://leetcode.com/problems/simplified-fractions/?envType=problem-list-v2&envId=string&difficulty=MEDIUM%2CHARD&status=SOLVED
+# https://leetcode.com/problems/simplified-fractions/?envType=problem-list-v2&envId=string&difficulty=MEDIUM%2CHARD&status=SOLVED
 
 
 class Solution(object):
@@ -8,7 +8,6 @@ class Solution(object):
             b = a % b
             a = c
         return a
-
 
     def simplifiedFractions(self, n):
         itog = []
